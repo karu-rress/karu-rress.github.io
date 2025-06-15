@@ -1799,6 +1799,8 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			/* no left dot */
+			list-style-type: none;
 		}
 
 	ol {
