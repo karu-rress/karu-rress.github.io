@@ -2633,7 +2633,12 @@ input, select, textarea {
 
 	}
 
+#about ul li {
+    display: flex;
+    align-items: center; /* 수직 중앙 정렬 */
+    margin-bottom: 8px; /* 각 리스트(줄) 사이의 간격 조정 */
+}
+
 #about ul li img {
-    vertical-align: middle;
-    margin-right: 8px; /* 아이콘과 글씨 사이가 너무 붙지 않게 여백 추가 */
+    margin-right: 10px; /* 아이콘과 글씨 사이의 간격 */
 }
