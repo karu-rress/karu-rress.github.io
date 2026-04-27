@@ -2632,3 +2632,8 @@ input, select, textarea {
 				}
 
 	}
+
+#about ul li img {
+    vertical-align: middle;
+    margin-right: 8px; /* 아이콘과 글씨 사이가 너무 붙지 않게 여백 추가 */
+}
